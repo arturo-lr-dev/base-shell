@@ -1,0 +1,15 @@
+html {
+    --lazy-image-width: 640px;
+    --lazy-image-height: 480px;
+}
+
+lazy-image {
+    width: var(--lazy-image-width);
+    height: var(--lazy-image-height);
+}
+
+san-microfront {
+    padding: 17px;
+    border: 3px dotted black;
+    display: block;
+}
